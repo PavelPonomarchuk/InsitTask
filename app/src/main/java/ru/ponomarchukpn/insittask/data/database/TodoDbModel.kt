@@ -1,12 +1,11 @@
-package ru.ponomarchukpn.insittask.data
+package ru.ponomarchukpn.insittask.data.database
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity
+@Entity(tableName = TodoDao.TABLE_NAME)
 data class TodoDbModel(
-    @PrimaryKey(autoGenerate = true)
-    val id: Int,
+    @PrimaryKey
     val description: String,
     val status: String
 )

@@ -1,9 +1,7 @@
-package ru.ponomarchukpn.insittask.data
+package ru.ponomarchukpn.insittask.data.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-
-//TODO add entities and dao
 
 @Database(
     entities = [TodoDbModel::class],
@@ -12,4 +10,5 @@ import androidx.room.RoomDatabase
 )
 abstract class AppDatabase : RoomDatabase() {
 
+    abstract fun todoDao(): TodoDao
 }

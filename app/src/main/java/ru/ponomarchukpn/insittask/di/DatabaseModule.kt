@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.room.Room
 import dagger.Module
 import dagger.Provides
-import ru.ponomarchukpn.insittask.data.AppDatabase
+import ru.ponomarchukpn.insittask.data.database.AppDatabase
 import javax.inject.Singleton
 
 @Module
@@ -18,7 +18,9 @@ class DatabaseModule {
         DB_NAME
     ).build()
 
-    //TODO add provides methods for dao
+    @Provides
+    @Singleton
+    fun provideTodoDao(database: AppDatabase) = database.todoDao()
 
     companion object {
 
