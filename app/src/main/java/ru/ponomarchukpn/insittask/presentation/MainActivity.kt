@@ -1,7 +1,8 @@
-package ru.ponomarchukpn.insittask
+package ru.ponomarchukpn.insittask.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import ru.ponomarchukpn.insittask.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
