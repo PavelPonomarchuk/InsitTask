@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">InsitTask</string>
+    <string name="app_label_description">Description</string>
+    <string name="app_label_status">Status</string>
+    <string name="app_label_todo_list">To Do List</string>
+    <string name="app_label_add_item">Add todo item</string>
+    <string name="app_label_enter_description">Enter todo description</string>
+    <string name="app_label_save_todo">Save todo item</string>
+    <string name="hint_enter_description">Enter todo description</string>
+    <string name="app_label_button_back">Button back</string>
+    <string name="app_label_create_todo">Create new todo</string>
+    <string name="app_label_edit_todo">Edit todo</string>
 </resources>
