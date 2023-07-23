@@ -1,5 +1,5 @@
 package ru.ponomarchukpn.insittask.domain.entity
 
 enum class CreateTodoStatus {
-    SUCCESS, FAIL, EXISTS
+    SUCCESS, EXISTS, UNAUTHORIZED, UNDEFINED_FAIL
 }
