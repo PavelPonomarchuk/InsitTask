@@ -1,4 +1,4 @@
-package ru.ponomarchukpn.insittask.presentation
+package ru.ponomarchukpn.insittask.presentation.core
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
