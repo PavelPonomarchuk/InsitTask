@@ -3,11 +3,18 @@
     <string name="app_label_description">Description</string>
     <string name="app_label_status">Status</string>
     <string name="app_label_todo_list">To Do List</string>
-    <string name="app_label_add_item">Add todo item</string>
+    <string name="app_label_add_item">Create todo item</string>
     <string name="app_label_enter_description">Enter todo description</string>
     <string name="app_label_save_todo">Save todo item</string>
     <string name="hint_enter_description">Enter todo description</string>
     <string name="app_label_button_back">Button back</string>
     <string name="app_label_create_todo">Create new todo</string>
     <string name="app_label_edit_todo">Edit todo</string>
+    <string name="app_label_login">Login</string>
+    <string name="hint_enter_name">Enter your name</string>
+    <string name="app_label_button_login">Do login</string>
+    <string name="app_message_undefined_error">Что-то пошло не так, попробуйте еще раз</string>
+    <string name="app_already_exists_error">Такая заметка уже существует</string>
+    <string name="app_empty_username_error">Имя пользователя не должно быть пустым</string>
+    <string name="app_empty_description_error">Описание не должно быть пустым</string>
 </resources>

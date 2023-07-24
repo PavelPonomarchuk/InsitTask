@@ -9,14 +9,14 @@
         android:id="@+id/edit_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/app_label_create_todo"
         android:textColor="@color/app_dark_blue"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/edit_guideline_header"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="Create new todo" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/edit_button_back"
@@ -25,8 +25,8 @@
         android:layout_marginStart="20dp"
         android:background="@drawable/oval_ripple"
         android:contentDescription="@string/app_label_button_back"
-        android:src="@drawable/ic_back"
         android:scaleType="fitCenter"
+        android:src="@drawable/ic_back"
         app:layout_constraintBottom_toTopOf="@id/edit_guideline_header"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
