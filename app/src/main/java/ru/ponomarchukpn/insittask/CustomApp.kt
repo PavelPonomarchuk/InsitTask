@@ -8,11 +8,6 @@ class CustomApp : Application(), App {
 
     private var appComponent: AppComponent? = null
 
-    override fun onCreate() {
-        super.onCreate()
-        appComponent()
-    }
-
     override fun appComponent() = getAppComponent()
 
     private fun getAppComponent(): AppComponent {
