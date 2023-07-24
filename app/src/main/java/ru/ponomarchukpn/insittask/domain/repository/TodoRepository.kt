@@ -8,6 +8,8 @@ interface TodoRepository {
 
     fun getItems(): Flow<List<TodoEntity>>
 
+    suspend fun loadItems()
+
     suspend fun updateItemStatus(todo: TodoEntity): Boolean
 
     suspend fun createItem(todo: TodoEntity): CreateTodoStatus
